@@ -10,3 +10,8 @@ Activate this virtual environment
 ```
 conda activate veers_custom_cnn
 ```
+Add this kernel to jupyter notebook kernels
+```
+python -m ipykernel install --user --name='veers_custom_cnn'
+```
+Now this kernel will appear on jupyter notebook
