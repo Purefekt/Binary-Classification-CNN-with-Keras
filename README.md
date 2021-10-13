@@ -50,6 +50,20 @@ Activate the first environment
 ```
 conda activate veers_custom_cnn_env
 ```
+Set PlaidML as backend
+```
+plaidml-setup
+```
+```
+Enable experimental device support? (y,n)[n]:n
+```
+On most devices 1 would be your CPU, 2 would be the integrated GPU on your CPU and 3 would be your dedicated GPU. Choose 3.
+```
+Please choose a default device: 3
+```
+```
+Save settings to /Users/veersingh/.plaidml? (y,n)[y]:y
+```
 Cd into the project directory
 
 Start the jupyter notebook server
