@@ -70,20 +70,6 @@ Start the jupyter notebook server
 ```
 jupyter notebook
 ```
-Now you can run the notebooks 1,2 and 3. Make sure to set the kernel to 'veers_custom_cnn_env'
+Now you can run the notebooks 1,2 and 3. Make sure to set the kernel to 'veers_custom_cnn_env'.
 
-Deactivate this environment
-```
-conda deactivate
-```
-Activate the second environment
-```
-conda activate testing_model_env
-```
-Cd into the project directory
-
-Start the jupyter notebook server
-```
-jupyter notebook
-```
-Now you can run the notebook 4. Make sure to set the kernel to 'testing_model_env'
+To run notebook 4, when you open it, change the kernel to -> testing_model_env
