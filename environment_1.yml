@@ -1,4 +1,4 @@
-name: veers_custom_cnn
+name: veers_custom_cnn_env
 channels:
   - conda-forge
   - defaults
@@ -71,6 +71,7 @@ dependencies:
   - parso=0.8.2=pyhd8ed1ab_0
   - pexpect=4.8.0=pyh9f0ad1d_2
   - pickleshare=0.7.5=py_1003
+  - pillow=8.3.1=py39ha4cf6ea_0
   - pip=21.2.4=py39hecd8cb5_0
   - prometheus_client=0.11.0=pyhd8ed1ab_0
   - prompt-toolkit=3.0.20=pyha770c72_0
@@ -103,5 +104,12 @@ dependencies:
   - zlib=1.2.11=h1de35cc_3
   - zstd=1.4.9=h322a384_0
   - pip:
-    - keras==2.6.0
-    - pillow==8.3.2
+    - enum34==1.1.10
+    - h5py==3.4.0
+    - keras==2.2.4
+    - keras-applications==1.0.8
+    - keras-preprocessing==1.1.2
+    - plaidml==0.7.0
+    - plaidml-keras==0.7.0
+    - pyyaml==5.4.1
+    - scipy==1.7.1
